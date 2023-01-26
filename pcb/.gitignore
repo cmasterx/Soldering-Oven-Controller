@@ -1,2 +1,3 @@
-pcb-oven-controller-backups
-/
+pcb-oven-controller-backups/
+*-bak
+*_autosave-*
