@@ -1,0 +1,16 @@
+# cmake builds output
+build/
+my_build/
+cmake/
+
+# cmake release
+Release/
+
+# STM32Cube copied library and project folders
+Drivers/
+Debug/
+FATFS/
+
+*.elf
+*.o
+.mxproject
