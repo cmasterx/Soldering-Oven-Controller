@@ -1,0 +1,14 @@
+{
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "cmake.configureOnOpen": true,
+  "cmake.sourceDirectory": "C:/Users/Frian/Documents/dev/pcb-oven-controller/firmware",
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "clangd.arguments": ["-log=verbose", 
+                       "-pretty", 
+                       "--background-index", 
+                       //"--query-driver=/bin/arm-buildroot-linux-gnueabihf-g++", //for cross compile usage
+                       "--compile-commands-dir=.vscode",
+                       "--enable-config"
+                      ],
+  "clangd.onConfigChanged": "restart",
+}

@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"clangd.arguments": [
+			"-log=verbose",
+			"-pretty",
+			"--background-index",
+			"--compile-commands-dir=.vscode",
+			"--enable-config"
+		],
+		"clangd.onConfigChanged": "restart"
+	}
+}

@@ -1,0 +1,11 @@
+# cmake builds output
+build/
+my_build/
+cmake/
+
+# cmake release
+Release/
+
+*.elf
+*.o
+.mxproject

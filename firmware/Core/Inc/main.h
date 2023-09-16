@@ -63,6 +63,42 @@ void Error_Handler(void);
 #define HSE_IN_GPIO_Port GPIOH
 #define HSE_OUT_Pin GPIO_PIN_1
 #define HSE_OUT_GPIO_Port GPIOH
+#define UART2_TX_Pin GPIO_PIN_2
+#define UART2_TX_GPIO_Port GPIOA
+#define SPI_SCK_Pin GPIO_PIN_5
+#define SPI_SCK_GPIO_Port GPIOA
+#define SPI_MOSI_Pin GPIO_PIN_7
+#define SPI_MOSI_GPIO_Port GPIOA
+#define DIMMER_SYNC_Pin GPIO_PIN_0
+#define DIMMER_SYNC_GPIO_Port GPIOB
+#define DRIVE_VBUS_FS_Pin GPIO_PIN_1
+#define DRIVE_VBUS_FS_GPIO_Port GPIOB
+#define PWM1_Pin GPIO_PIN_10
+#define PWM1_GPIO_Port GPIOB
+#define SPI_CS2_Pin GPIO_PIN_12
+#define SPI_CS2_GPIO_Port GPIOB
+#define SPI_CS1_Pin GPIO_PIN_13
+#define SPI_CS1_GPIO_Port GPIOB
+#define SPI_CS0_Pin GPIO_PIN_14
+#define SPI_CS0_GPIO_Port GPIOB
+#define RX_Pin GPIO_PIN_10
+#define RX_GPIO_Port GPIOA
+#define USB_DM_Pin GPIO_PIN_11
+#define USB_DM_GPIO_Port GPIOA
+#define USB_DP_Pin GPIO_PIN_12
+#define USB_DP_GPIO_Port GPIOA
+#define SWDIO_Pin GPIO_PIN_13
+#define SWDIO_GPIO_Port GPIOA
+#define SWCLK_Pin GPIO_PIN_14
+#define SWCLK_GPIO_Port GPIOA
+#define PWM0_Pin GPIO_PIN_15
+#define PWM0_GPIO_Port GPIOA
+#define SWO_Pin GPIO_PIN_3
+#define SWO_GPIO_Port GPIOB
+#define SPI_MISO_Pin GPIO_PIN_4
+#define SPI_MISO_GPIO_Port GPIOB
+#define SDIO_IN_Pin GPIO_PIN_5
+#define SDIO_IN_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
