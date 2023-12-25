@@ -1,3 +1,6 @@
 pcb-oven-controller-backups/
 *-bak
 *_autosave-*
+
+# KiCAD Lock Files
+*.kicad_sch.lck
